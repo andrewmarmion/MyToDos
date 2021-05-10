@@ -17,6 +17,7 @@
 		2D57AF2F2646B79400EA9FF8 /* ToDoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57AF2E2646B79400EA9FF8 /* ToDoFormView.swift */; };
 		2D57AF312646C11E00EA9FF8 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57AF302646C11E00EA9FF8 /* ModalType.swift */; };
 		2D57AF372647F09800EA9FF8 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57AF362647F09800EA9FF8 /* FileManager+Extension.swift */; };
+		2D57AF39264990C700EA9FF8 /* ToDoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57AF38264990C700EA9FF8 /* ToDoError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2D57AF2E2646B79400EA9FF8 /* ToDoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormView.swift; sourceTree = "<group>"; };
 		2D57AF302646C11E00EA9FF8 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
 		2D57AF362647F09800EA9FF8 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		2D57AF38264990C700EA9FF8 /* ToDoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2D57AF302646C11E00EA9FF8 /* ModalType.swift */,
+				2D57AF38264990C700EA9FF8 /* ToDoError.swift */,
 				2D57AF2826469C5A00EA9FF8 /* ToDo.swift */,
 			);
 			path = Models;
@@ -194,6 +197,7 @@
 				2D57AF2926469C5A00EA9FF8 /* ToDo.swift in Sources */,
 				2D57AF2B26469EEA00EA9FF8 /* DataStore.swift in Sources */,
 				2D57AF1C26469BA100EA9FF8 /* ContentView.swift in Sources */,
+				2D57AF39264990C700EA9FF8 /* ToDoError.swift in Sources */,
 				2D57AF1A26469BA100EA9FF8 /* MyToDosApp.swift in Sources */,
 				2D57AF2D2646B51600EA9FF8 /* ToDoFormViewModel.swift in Sources */,
 			);
