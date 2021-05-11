@@ -30,14 +30,14 @@ struct ToDoFormView: View {
 extension ToDoFormView {
     func updateToDo() {
         let toDo = ToDo(id: formVM.id!, name: formVM.name, completed: formVM.completed)
-        dataStore.updateToDo(toDo)
+        dataStore.updateToDo.send(toDo)
         presentationMode.wrappedValue.dismiss()
     }
 
     func addToDo() {
         let toDo = ToDo(name: formVM.name)
         presentationMode.wrappedValue.dismiss()
-        dataStore.addToDo(toDo)
+        dataStore.addToDo.send(toDo)
     }
 
     var cancelButton: some View {
